@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f9ff;
+  color: #1f2d3d;
+}
+
+.navbar {
+  width: 100vw;
+  height: 10vh;
+  line-height: 10vh;
+  background-color: #ffffff;
+  box-shadow: 0 0.2vh 1vh rgba(0, 0, 0, 0.08);
+  padding: 0 4vw;
+  white-space: nowrap;
+}
+
+.navbar>div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-logo {
+  width: 20%;
+  font-size: 2.2vw;
+  font-weight: 700;
+  color: #1e88e5;
+}
+
+.logo-icon {
+  margin-right: 0.6vw;
+}
+
+.nav-links {
+  width: 58%;
+  text-align: center;
+}
+
+.nav-links a {
+  display: inline;
+  margin: 0 1.6vw;
+  font-size: 1.15vw;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1f2d3d;
+  padding-bottom: 0.5vh;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #1e88e5;
+  border-bottom: 0.4vh solid #1e88e5;
+}
+
+.nav-user {
+  width: 20%;
+  text-align: right;
+  font-size: 1.15vw;
+  font-weight: 600;
+  color: #1f2d3d;
+}
+
+.hero {
+  width: 100vw;
+  height: 90vh;
+  padding: 0 4vw;
+  white-space: nowrap;
+  line-height: 90vh;
+  background: linear-gradient(135deg, #e3f2fd 0%, #f4f9ff 60%);
+}
+
+.hero-left,
+.hero-right {
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  line-height: normal;
+}
+
+.hero-left {
+  width: 46%;
+  padding-right: 3vw;
+}
+
+.hero-right {
+  width: 52%;
+  text-align: center;
+}
+
+.tagline {
+  display: inline-block;
+  background-color: #d6ebff;
+  color: #1e88e5;
+  font-size: 1.1vw;
+  font-weight: 600;
+  padding: 0.8vh 1.2vw;
+  border-radius: 5vh;
+  margin-bottom: 3vh;
+}
+
+.hero-left h1 {
+  font-size: 4.2vw;
+  line-height: 1.15;
+  margin-bottom: 3vh;
+  color: #0d2b45;
+}
+
+.highlight {
+  color: #1e88e5;
+}
+
+.description {
+  font-size: 1.3vw;
+  line-height: 1.6;
+  color: #556b80;
+  margin-bottom: 5vh;
+}
+
+.cta-btn {
+  background-color: #1e88e5;
+  color: #ffffff;
+  border: none;
+  font-size: 1.3vw;
+  font-weight: 600;
+  padding: 2vh 2.5vw;
+  border-radius: 1vh;
+  cursor: pointer;
+  box-shadow: 0 1vh 2vh rgba(30, 136, 229, 0.35);
+}
+
+.cta-btn:hover {
+  background-color: #1565c0;
+}
+
+.hero-right img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 3vh;
+  box-shadow: 0 2vh 5vh rgba(13, 43, 69, 0.2);
+}
